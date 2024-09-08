@@ -22,10 +22,7 @@ export default function(props){
         "50d": "fog",
         "50n": "fog",
       };
-    
-      
-
-    return(
+        return(
         <WeatherSvg state={codeMapping[props.code]} color="black" width={75} height={75} animated={true}  />
     )
 }
