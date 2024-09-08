@@ -19,15 +19,15 @@ export default function WeatherTemperature(props){
             <span className="temperature">
                 {Math.round(props.celsius)}  
             </span>
-            <span className="unit">°C | {" "} <a onClick={convertFahrenheit}>°F</a> </span>
+            <span className="unit">°C | {" "} <a href="#" onClick={convertFahrenheit}>°F</a> </span>
         </div>)
     }else{
         let fahrenheit = (props.celsius)- 32 * 5/9 
         return (<div className="WeatherTemperature">
             <span className="temperature">
                 {Math.round(fahrenheit)}  
-            </span>
-            <span className="unit"><a  onClick={convertCelcius}>°C</a> | {" "} °F </span>
+            </span>S
+            <span className="unit"><a href="#" onClick={convertCelcius}>°C</a> | {" "} °F </span>
         </div>)
     }
    
