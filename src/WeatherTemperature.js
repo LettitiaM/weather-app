@@ -19,7 +19,7 @@ export default function WeatherTemperature(props){
             <span className="temperature">
                 {Math.round(props.celsius)}  
             </span>
-            <span className="unit">°C | {" "} <a href="#" onClick={convertFahrenheit}>°F</a> </span>
+            <span className="unit">°C | {" "} <a href="https://github.com/LettitiaM/weather-app" onClick={convertFahrenheit}>°F</a> </span>
         </div>)
     }else{
         let fahrenheit = (props.celsius)- 32 * 5/9 
@@ -27,7 +27,7 @@ export default function WeatherTemperature(props){
             <span className="temperature">
                 {Math.round(fahrenheit)}  
             </span>S
-            <span className="unit"><a href="#" onClick={convertCelcius}>°C</a> | {" "} °F </span>
+            <span className="unit"><a href="https://github.com/LettitiaM/weather-app" onClick={convertCelcius}>°C</a> | {" "} °F </span>
         </div>)
     }
    
