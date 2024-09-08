@@ -1,7 +1,7 @@
 import React from "react";
 import { WeatherSvg } from "weather-icons-animated";
 
-export default function(props){
+export default function WeatherIcon(props){
     const codeMapping = {
         "01d": "sunny",
         "01n": "clear-night",
