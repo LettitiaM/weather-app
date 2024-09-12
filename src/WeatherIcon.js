@@ -19,10 +19,10 @@ export default function WeatherIcon(props){
         "11n": "rainy",
         "13d": "snowy",
         "13n": "snowy",
-        "50d": "fog",
+        "50d": "haze",
         "50n": "fog",
       };
         return(
-        <WeatherSvg state={codeMapping[props.code]} color="black" width={props.width} height={props.height} animated={true}  />
+        <WeatherSvg state={codeMapping[props.code]} color="black" width={props.width} height={props.height}   />
     )
 }
