@@ -14,7 +14,7 @@ return(
                 <div className="col-6">
                     <div className="d-flex">
                         <div className="float-left">
-                        <WeatherIcon code={props.data.icon} alt={props.data.description}/>
+                        <WeatherIcon code={props.data.icon} alt={props.data.description} width={75} height={75}/>
                         </div>
                       <div className="float-left">
                         <WeatherTemperature celsius={props.data.temperature}/>

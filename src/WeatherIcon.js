@@ -23,6 +23,6 @@ export default function WeatherIcon(props){
         "50n": "fog",
       };
         return(
-        <WeatherSvg state={codeMapping[props.code]} color="black" width={75} height={75} animated={true}  />
+        <WeatherSvg state={codeMapping[props.code]} color="black" width={props.width} height={props.height} animated={true}  />
     )
 }
